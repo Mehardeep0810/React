@@ -1,0 +1,7 @@
+.person{
+    width: 360px;
+    border: 2px solid #ccc;
+    box-shadow: 4px 8px 4px 8px plum;
+    margin: 20px auto;
+    padding: 16px;
+}

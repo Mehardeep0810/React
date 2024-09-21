@@ -1,0 +1,34 @@
+/* App.css */
+*{
+  background-image: url('https://piktochart.com/wp-content/uploads/2023/10/large-204-600x338.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+}
+  
+.project-card img {
+    max-width: 100%;
+}
+  
+.technology-details {
+    margin-top: 10px;
+}
+  
+.technology-details ul {
+    list-style: none;
+    padding: 0;
+}
+  
+.technology-details li {
+    margin-bottom: 5px;
+}
+
+.btn{
+    color: white;
+}

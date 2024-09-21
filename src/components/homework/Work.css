@@ -1,0 +1,74 @@
+/* Styling for the Todo List */
+
+*{
+    background-color: lavenderblush;
+}
+div {
+    background-color: lightgreen;
+    font-family: Arial, sans-serif;
+    max-width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    background-color: lightgreen;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 50vw;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: black;
+    border: none;
+    border-radius: 3px;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  .add {
+    margin-left: 50px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: lightgreen;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Remove button */
+  button.remove {
+    background-color: #dc3545;
+  }
+  
+  button.remove:hover {
+    background-color: #c82333;
+  }
+  
